@@ -1,0 +1,1553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="Designer_V6.5.0.20190320.3.935878" APIVersion="3.6.19011.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2024-02-14T08:43:03Z" uuid="56950dd2-56cd-4236-b59c-60791ee73bf9">
+<template xmlns="http://www.xfa.org/schema/xfa-template/3.3/">
+   <?formServer defaultPDFRenderFormat acrobat10.0static?>
+   <subform name="root" layout="tb" locale="en_IN" restoreState="auto">
+      <pageSet>
+         <pageArea id="PageArea1" name="fax">
+            <contentArea name="ContentArea1" x="0pt" y="0pt" w="612pt" h="792pt"/>
+            <medium short="215.9mm" long="279.4mm" stock="custom"/>
+            <?templateDesigner expand 1?></pageArea>
+         <?templateDesigner expand 0?></pageSet>
+      <desc>
+         <text name="creator">Kavtiyal, Anubha</text>
+         <text name="version">6.4.0.20180228.1.932123</text>
+      </desc>
+      <subform name="Page1" x="0pt" y="0pt" w="612pt" h="792pt">
+         <breakBefore targetType="pageArea" target="fax"/>
+         <bind match="none"/>
+         <subform name="P" x="12.7mm" y="63.482mm" w="203.2mm">
+            <draw name="L113" w="540pt" h="0pt" y="0mm">
+               <value>
+                  <line>
+                     <edge cap="butt"/>
+                  </line>
+               </value>
+            </draw>
+            <bind match="none"/>
+            <?templateDesigner expand 1?></subform>
+         <subform name="P" x="8.355mm" w="207.482mm" h="262.46mm">
+            <draw name="R115" w="1pt" h="1pt" x="0.063mm">
+               <value>
+                  <rectangle>
+                     <edge presence="hidden"/>
+                     <fill>
+                        <color value="0,0,0"/>
+                     </fill>
+                     <corner radius="5.08mm" presence="hidden"/>
+                  </rectangle>
+               </value>
+            </draw>
+            <draw name="R116" w="1pt" h="1pt" x="0.063mm">
+               <value>
+                  <rectangle>
+                     <edge presence="hidden"/>
+                     <fill>
+                        <color value="0,0,0"/>
+                     </fill>
+                     <corner radius="5.08mm" presence="hidden"/>
+                  </rectangle>
+               </value>
+            </draw>
+            <draw name="R117" x="0.416mm" w="562.13pt" h="1pt">
+               <value>
+                  <rectangle>
+                     <edge presence="hidden"/>
+                     <fill>
+                        <color value="0,0,0"/>
+                     </fill>
+                     <corner radius="5.08mm" presence="hidden"/>
+                  </rectangle>
+               </value>
+            </draw>
+            <draw name="R118" x="198.723mm" w="1pt" h="1pt">
+               <value>
+                  <rectangle>
+                     <edge presence="hidden"/>
+                     <fill>
+                        <color value="0,0,0"/>
+                     </fill>
+                     <corner radius="5.08mm" presence="hidden"/>
+                  </rectangle>
+               </value>
+            </draw>
+            <draw name="R119" x="198.723mm" w="1pt" h="1pt">
+               <value>
+                  <rectangle>
+                     <edge presence="hidden"/>
+                     <fill>
+                        <color value="0,0,0"/>
+                     </fill>
+                     <corner radius="5.08mm" presence="hidden"/>
+                  </rectangle>
+               </value>
+            </draw>
+            <draw name="R120" y="0.653mm" w="1pt" h="742.13pt" x="0.008mm">
+               <value>
+                  <rectangle>
+                     <edge presence="hidden"/>
+                     <fill>
+                        <color value="0,0,0"/>
+                     </fill>
+                     <corner radius="5.08mm" presence="hidden"/>
+                  </rectangle>
+               </value>
+            </draw>
+            <draw name="R121" x="198.696mm" w="1pt" h="742.13pt">
+               <value>
+                  <rectangle>
+                     <edge presence="hidden"/>
+                     <fill>
+                        <color value="0,0,0"/>
+                     </fill>
+                     <corner radius="5.08mm" presence="hidden"/>
+                  </rectangle>
+               </value>
+            </draw>
+            <draw name="R122" y="262.158mm" w="1pt" h="1pt" x="0.063mm">
+               <value>
+                  <rectangle>
+                     <edge presence="hidden"/>
+                     <fill>
+                        <color value="0,0,0"/>
+                     </fill>
+                     <corner radius="5.08mm" presence="hidden"/>
+                  </rectangle>
+               </value>
+            </draw>
+            <draw name="R123" y="262.158mm" w="1pt" h="1pt" x="0.063mm">
+               <value>
+                  <rectangle>
+                     <edge presence="hidden"/>
+                     <fill>
+                        <color value="0,0,0"/>
+                     </fill>
+                     <corner radius="5.08mm" presence="hidden"/>
+                  </rectangle>
+               </value>
+            </draw>
+            <draw name="R124" x="0.416mm" y="262.158mm" w="562.13pt" h="1pt">
+               <value>
+                  <rectangle>
+                     <edge presence="hidden"/>
+                     <fill>
+                        <color value="0,0,0"/>
+                     </fill>
+                     <corner radius="5.08mm" presence="hidden"/>
+                  </rectangle>
+               </value>
+            </draw>
+            <draw name="R125" x="198.723mm" y="262.158mm" w="1pt" h="1pt">
+               <value>
+                  <rectangle>
+                     <edge presence="hidden"/>
+                     <fill>
+                        <color value="0,0,0"/>
+                     </fill>
+                     <corner radius="5.08mm" presence="hidden"/>
+                  </rectangle>
+               </value>
+            </draw>
+            <draw name="R126" x="198.723mm" y="262.158mm" w="0.304mm" h="0.306mm">
+               <value>
+                  <rectangle>
+                     <edge presence="hidden"/>
+                     <fill>
+                        <color value="255,255,153"/>
+                     </fill>
+                     <corner radius="5.08mm" presence="hidden"/>
+                  </rectangle>
+               </value>
+            </draw>
+            <traversal>
+               <traverse operation="first" ref="T74[0]"/>
+            </traversal>
+            <bind match="none"/>
+            <exclGroup name="RadioButtonList" x="144.422mm" y="12.464mm" access="readOnly">
+               <field w="23.092mm" h="7.694mm" y="0.606mm" x="0mm">
+                  <ui>
+                     <checkButton shape="round">
+                        <border>
+                           <edge stroke="lowered"/>
+                           <fill/>
+                        </border>
+                     </checkButton>
+                  </ui>
+                  <font typeface="Myriad Pro"/>
+                  <margin leftInset="1mm" rightInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption placement="right" reserve="17.092mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text>English</text>
+                     </value>
+                  </caption>
+                  <value>
+                     <text>English</text>
+                  </value>
+                  <items>
+                     <text>English</text>
+                  </items>
+               </field>
+               <field x="27.235mm" w="22.432mm" h="8.3mm">
+                  <ui>
+                     <checkButton shape="round">
+                        <border>
+                           <edge stroke="lowered"/>
+                           <fill/>
+                        </border>
+                     </checkButton>
+                  </ui>
+                  <font typeface="Myriad Pro"/>
+                  <margin leftInset="1mm" rightInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption placement="right" reserve="16.432mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text>Hindi</text>
+                     </value>
+                  </caption>
+                  <items>
+                     <text>Hindi</text>
+                  </items>
+               </field>
+               <bind match="none"/>
+               <?templateDesigner expand 0?></exclGroup>
+            <draw name="T7" w="47.153mm" h="5.364mm" x="4.563mm" y="17.459mm">
+               <value>
+                  <text>Name Reservation</text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font weight="bold" typeface="Myriad Pro"/>
+               <traversal>
+                  <traverse ref="fax[0]"/>
+               </traversal>
+               <?renderCache.bounds 133662 15205 0 0 0 0 0 0?>
+               <?renderCache.textRun 16 Name Reservation 0 0 10102 0 0 0 "Myriad Pro" 1 0 10000 ISO-8859-1?></draw>
+            <draw name="T74" w="27.813mm" x="147.466mm" y="4.941mm">
+               <value>
+                  <text>Form language</text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="12pt" typeface="Myriad Pro"/>
+               <traversal>
+                  <traverse ref="P[0]"/>
+               </traversal>
+            </draw>
+            <draw name="T16" w="34.678mm" y="57.773mm" h="4.055mm" x="4.782mm">
+               <value>
+                  <text>Company Information</text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font weight="bold" typeface="Myriad Pro"/>
+               <?renderCache.bounds 98300 11494 0 0 0 0 0 0?>
+               <?renderCache.textRun 19 Company Information 0 0 8247 0 0 0 "Myriad Pro" 1 0 10000 ISO-8859-1?></draw>
+            <field name="fax" y="67.382mm" x="3.957mm" w="191.935mm" h="9mm">
+               <ui>
+                  <textEdit multiLine="1">
+                     <border>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Calibri"/>
+               <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="113.5622mm">
+                  <para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                  <value>
+                     <text>1 (a) *Type of company</text>
+                  </value>
+                  <font typeface="Calibri" baselineShift="0pt"/>
+               </caption>
+               <bind match="dataRef" ref="$.requestBody.formData.companyType"/>
+            </field>
+            <field name="fax" y="80.57mm" x="4.793mm" w="191.391mm" h="9mm">
+               <ui>
+                  <textEdit multiLine="1">
+                     <border>
+                        <edge/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Calibri"/>
+               <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="113.0878mm">
+                  <para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                  <value>
+                     <text> *LLPIN</text>
+                  </value>
+                  <font typeface="Calibri" baselineShift="0pt"/>
+               </caption>
+               <bind match="dataRef" ref="$.requestBody.formData.LLPIN"/>
+            </field>
+            <field name="fax" y="92.919mm" x="4.501mm" w="191.75mm" h="8.596mm">
+               <ui>
+                  <textEdit multiLine="1">
+                     <border>
+                        <edge/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Calibri"/>
+               <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="113.0878mm">
+                  <para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                  <value>
+                     <text>* Class of the company </text>
+                  </value>
+                  <font typeface="Calibri" baselineShift="0pt"/>
+               </caption>
+               <bind match="dataRef" ref="$.requestBody.formData.companyClass"/>
+               <traversal>
+                  <traverse ref="P[1]"/>
+               </traversal>
+            </field>
+            <field name="fax" y="105.057mm" x="4.871mm" w="191.391mm" h="9mm">
+               <ui>
+                  <textEdit multiLine="1">
+                     <border>
+                        <edge/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Calibri"/>
+               <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="112.8574mm">
+                  <para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                  <value>
+                     <text>* Category of the company</text>
+                  </value>
+                  <font typeface="Calibri" baselineShift="0pt"/>
+               </caption>
+               <bind match="dataRef" ref="$.requestBody.formData.companyCategory"/>
+            </field>
+            <field name="fax" y="116.68mm" x="4.501mm" w="191.648mm" h="14.341mm">
+               <ui>
+                  <textEdit multiLine="1">
+                     <border>
+                        <edge/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Calibri"/>
+               <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="113.0878mm">
+                  <para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                  <value>
+                     <text>Sub-category of the company</text>
+                  </value>
+                  <font typeface="Calibri" baselineShift="0pt"/>
+               </caption>
+               <bind match="dataRef" ref="$.requestBody.formData.companySubCategory"/>
+            </field>
+            <draw w="27.887mm" h="29.771mm" y="5.47mm" x="82.502mm">
+               <value>
+                  <image contentType="image/png">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
+1VoBlQAAAABJRU5ErkJggg==</image>
+               </value>
+               <ui>
+                  <imageEdit/>
+               </ui>
+               <desc>
+                  <text name="embeddedHref">..\Satyamev Jayate logo.png</text>
+               </desc>
+            </draw>
+            <subform name="P" x="4.712mm" y="10.328mm" w="1.367in" h="0.194in">
+               <draw name="T4" w="34.513mm" h="0.194444in">
+                  <value>
+                     <text>SPICe+ part A</text>
+                  </value>
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                  <font weight="bold" size="14pt" typeface="Myriad Pro" baselineShift="0pt"/>
+                  <?renderCache.bounds 97832 14000 0 0 0 0 0 0?>
+                  <?renderCache.textRun 13 SPICe+ part A 0 0 10500 0 0 0 "Myriad Pro" 1 0 14000 ISO-8859-1?></draw>
+               <bind match="none"/>
+               <traversal>
+                  <traverse operation="first" ref="T4[0]"/>
+               </traversal>
+               <?templateDesigner expand 0?></subform>
+            <draw name="T12" w="2.173in" minH="0.138in" x="5.037mm" y="47.103mm">
+               <value>
+                  <text>Refer instruction kit for filing the form</text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+               <font posture="italic" typeface="Myriad Pro" baselineShift="0pt"/>
+               <traversal>
+                  <traverse ref="T16[0]"/>
+               </traversal>
+            </draw>
+            <subform name="P" x="4.563mm" y="52.837mm" w="53.026mm" h="0.138in">
+               <draw name="T13" w="0.982in" minH="0.138in">
+                  <value>
+                     <text>All fields marked</text>
+                  </value>
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <para vAlign="middle"/>
+                  <font posture="italic" typeface="Myriad Pro"/>
+                  <traversal>
+                     <traverse ref="T14[0]"/>
+                  </traversal>
+               </draw>
+               <draw name="T14" x="24.511mm" w="0.151in" minH="0.138in">
+                  <value>
+                     <text>in</text>
+                  </value>
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <para vAlign="middle"/>
+                  <font posture="italic" typeface="Calibri"/>
+               </draw>
+               <draw name="T15" x="27.88mm" w="0.99in" minH="0.138in">
+                  <value>
+                     <text>* are mandatory</text>
+                  </value>
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <para vAlign="middle"/>
+                  <font posture="italic" typeface="Myriad Pro"/>
+               </draw>
+               <bind match="none"/>
+               <traversal>
+                  <traverse operation="first" ref="T13[0]"/>
+               </traversal>
+               <?templateDesigner expand 1?></subform>
+            <subform name="P" x="4.793mm" y="25.822mm" w="72.451mm" h="15.778mm">
+               <bind match="none"/>
+               <draw name="Text30" y="0.011mm" w="72.532mm" h="15.767mm">
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <value>
+                     <text>Pursuant to section 4(4) of the Companies Act, 2013 and Pursuant to rule 8 &amp; rule 9 of the Companies (Incorporation) Rules 2014]</text>
+                  </value>
+                  <font typeface="Myriad Pro"/>
+                  <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                  <?renderCache.bounds 202769 41860 0 0 1417 1417 0 0?>
+                  <?renderCache.textRun 47 Pursuant to section 4(4) of the Companies Act,  0 1417 8917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
+                  <?renderCache.textRun 44 2013 and Pursuant to rule 8 & rule 9 of the  0 1417 20917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
+                  <?renderCache.textRun 37 Companies (Incorporation) Rules 2014] 0 1417 32917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?></draw>
+               <?templateDesigner expand 1?></subform>
+            <subform w="198.456mm" h="129.598mm" name="subform1" y="132.862mm" x="0.252mm">
+               <bind match="none"/>
+               <field name="desc1" y="29.24mm" x="5.26mm" w="190.523mm" h="24.873mm">
+                  <ui>
+                     <textEdit multiLine="1">
+                        <border>
+                           <edge stroke="lowered"/>
+                        </border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Calibri"/>
+                  <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="98.3512mm">
+                     <para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                     <font typeface="Calibri" baselineShift="0pt"/>
+                     <value>
+                        <text>Description of the main sub-class</text>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.requestBody.formData.Description1"/>
+                  <event activity="initialize" name="event__initialize">
+                     <script contentType="application/x-javascript">
+if(desc2.rawValue !=null &amp;&amp; desc3.rawValue ==null )
+{
+
+this.rawValue =desc1.rawValue+","+ desc2.rawValue;
+}
+else if(desc2.rawValue !=null &amp;&amp; desc3.rawValue !=null)
+{
+
+this.rawValue =desc1.rawValue+", "+desc2.rawValue+ ","+desc3.rawValue;
+}
+else {
+
+this.rawValue= desc1.rawValue;
+}
+</script>
+                  </event>
+               </field>
+               <field name="nic1" y="3.893mm" x="4.541mm" w="191.293mm" h="18.579mm">
+                  <ui>
+                     <textEdit multiLine="1">
+                        <border>
+                           <edge/>
+                        </border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Calibri"/>
+                  <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="112.8574mm">
+                     <para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                     <value>
+                        <text>Main Sub-class of industrial activity of the company</text>
+                     </value>
+                     <font typeface="Calibri" baselineShift="0pt"/>
+                  </caption>
+                  <bind match="dataRef" ref="$.requestBody.formData.NICCode1"/>
+                  <event activity="initialize" name="event__initialize">
+                     <script contentType="application/x-javascript">if(nic2.rawValue != null &amp;&amp; nic3.rawValue == null )
+{
+
+this.rawValue = nic1.rawValue+","+ nic2.rawValue;
+}
+else if(nic2.rawValue !=null &amp;&amp; nic3.rawValue !=null)
+{
+
+this.rawValue = nic1.rawValue+", "+ nic2.rawValue+ ","+ nic3.rawValue;
+}
+else {
+
+this.rawValue= nic1.rawValue;
+}
+
+</script>
+                  </event>
+               </field>
+               <border>
+                  <edge/>
+                  <corner/>
+               </border>
+               <traversal>
+                  <traverse operation="first" ref="fax[1]"/>
+               </traversal>
+               <field name="nic2" y="105.293mm" x="7.954mm" w="62mm" h="9mm" presence="hidden">
+                  <ui>
+                     <textEdit>
+                        <border>
+                           <edge stroke="lowered"/>
+                        </border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Myriad Pro"/>
+                  <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="25mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text>Nic Code2</text>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.requestBody.formData.NICCode2"/>
+               </field>
+               <field name="desc2" y="119.941mm" x="8.253mm" w="62mm" h="9mm" presence="hidden">
+                  <ui>
+                     <textEdit>
+                        <border>
+                           <edge stroke="lowered"/>
+                        </border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Myriad Pro"/>
+                  <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="25mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text>Description2</text>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.requestBody.formData.Description2"/>
+               </field>
+               <field name="nic3" y="106.168mm" x="90.273mm" w="62mm" h="9mm" presence="hidden">
+                  <ui>
+                     <textEdit>
+                        <border>
+                           <edge stroke="lowered"/>
+                        </border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Myriad Pro"/>
+                  <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="25mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text>Nic Code 3</text>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.requestBody.formData.NICCode3"/>
+               </field>
+               <field name="desc3" y="120.528mm" x="89.687mm" w="62mm" h="9mm" presence="hidden">
+                  <ui>
+                     <textEdit>
+                        <border>
+                           <edge stroke="lowered"/>
+                        </border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Myriad Pro"/>
+                  <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="25mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text>Description 3</text>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.requestBody.formData.Description3"/>
+               </field>
+               <?templateDesigner expand 0?>
+               <draw name="T58" w="161.832mm" h="5.9mm" y="63.669mm" x="5.26mm">
+                  <value>
+                     <text>*Particulars of the proposed or approved  name </text>
+                  </value>
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <para vAlign="middle"/>
+                  <font typeface="Myriad Pro"/>
+                  <traversal>
+                     <traverse ref="RadioButtonList[0]"/>
+                  </traversal>
+                  <?renderCache.bounds 458736 16724 0 0 0 0 0 0?>
+                  <?renderCache.textRun 47 *Particulars of the proposed or approved  name  0 0 10862 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?></draw>
+               <field name="fax" y="97.15mm" x="10.763mm" w="184.249mm" h="9mm">
+                  <ui>
+                     <textEdit multiLine="1">
+                        <border>
+                           <edge/>
+                        </border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Calibri"/>
+                  <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="0.01in">
+                     <para vAlign="middle"/>
+                  </caption>
+                  <bind match="dataRef" ref="$.requestBody.formData.proposedName2"/>
+               </field>
+               <field name="fax" y="79.217mm" x="11.237mm" w="184.249mm" h="9mm">
+                  <ui>
+                     <textEdit multiLine="1">
+                        <border>
+                           <edge/>
+                        </border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Calibri"/>
+                  <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="0.01in">
+                     <para vAlign="middle"/>
+                  </caption>
+                  <bind match="dataRef" ref="$.requestBody.formData.proposedName1"/>
+                  <traversal>
+                     <traverse ref="T61[0]"/>
+                  </traversal>
+               </field>
+               <draw name="T61" x="5.016mm" w="3.779mm" y="99.779mm" h="5.099mm">
+                  <value>
+                     <text>II.</text>
+                  </value>
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <para vAlign="middle"/>
+                  <font typeface="Myriad Pro"/>
+                  <traversal>
+                     <traverse ref="T12[0]"/>
+                  </traversal>
+                  <?renderCache.bounds 10712 14454 0 0 0 0 0 0?>
+                  <?renderCache.textRun 3 II. 0 0 9727 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?></draw>
+               <draw name="T61" x="6.453mm" w="2.392mm" y="82.077mm" h="5.099mm">
+                  <value>
+                     <text>I.</text>
+                  </value>
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <para vAlign="middle"/>
+                  <font typeface="Myriad Pro"/>
+                  <?renderCache.bounds 6780 14454 0 0 0 0 0 0?>
+                  <?renderCache.textRun 2 I. 0 0 9727 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?></draw>
+            </subform>
+            <field name="TextField4" y="25.481mm" x="133.786mm" w="62mm" h="9mm">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden"/>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Calibri">
+                  <fill>
+                     <color value="255,255,255"/>
+                  </fill>
+               </font>
+               <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="0.01in">
+                  <para vAlign="middle"/>
+               </caption>
+               <bind match="none"/>
+               <value>
+                  <text>__MCA__PDF__GEN__VER=1__</text>
+               </value>
+            </field>
+            <?templateDesigner expand 1?></subform>
+         <traversal>
+            <traverse operation="first" ref="T0[0]"/>
+         </traversal>
+         <draw name="T0" w="23.373mm" x="182.191mm" y="268.264mm" h="4.535mm">
+            <value>
+               <text>Page 1 of 2</text>
+            </value>
+            <ui>
+               <textEdit/>
+            </ui>
+            <para vAlign="middle"/>
+            <font size="11pt" typeface="Myriad Pro"/>
+            <traversal>
+               <traverse ref="P[1]"/>
+            </traversal>
+            <?renderCache.bounds 66254 12855 0 0 0 0 0 0?>
+            <?renderCache.textRun 11 Page 1 of 2 0 0 9177 0 0 0 "Myriad Pro" 0 0 11000 ISO-8859-1?></draw>
+         <?templateDesigner expand 1?></subform>
+      <subform w="612pt" h="792pt" name="Page2">
+         <breakBefore targetType="pageArea" startNew="1"/>
+         <bind match="none"/>
+         <border>
+            <edge thickness="0.1753mm" presence="hidden"/>
+            <corner thickness="0.175mm" presence="hidden"/>
+         </border>
+         <subform x="10.275mm" y="7.889mm" w="197.25mm" h="262.285mm" name="page2Subform">
+            <bind match="none"/>
+            <border>
+               <edge/>
+               <corner thickness="0.175mm"/>
+            </border>
+            <field name="TextField1" y="64.398mm" x="6.147mm" w="183.871mm" h="9mm">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Calibri"/>
+               <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="109.7398mm">
+                  <font size="10.5pt" typeface="Calibri" baselineShift="0pt"/>
+                  <para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                  <value>
+                     <text>eFormService requestnumber(SRN)</text>
+                  </value>
+               </caption>
+               <bind match="dataRef" ref="$.requestBody.srn"/>
+            </field>
+            <field name="DateField1" y="78.428mm" x="5.503mm" w="184.82mm" h="9mm" access="readOnly">
+               <ui>
+                  <dateTimeEdit>
+                     <border>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </dateTimeEdit>
+               </ui>
+               <font typeface="Calibri"/>
+               <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <date/>
+               </value>
+               <caption reserve="109.9838mm">
+                  <font size="10.5pt" typeface="Calibri" baselineShift="0pt"/>
+                  <para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                  <value>
+                     <text>eForm filingdate(DD/MM/YYYY)</text>
+                  </value>
+               </caption>
+               <bind match="none"/>
+               <calculate override="error"/>
+               <format>
+                  <picture>date{DD/MM/YYYY}</picture>
+               </format>
+               <event activity="ready" ref="$layout" name="event__layout_ready">
+                  <script>$.rawValue = Num2Date(Date(), "YYYY-MM-DD")
+</script>
+               </event>
+               <?templateDesigner floatingFieldPlaceholder {current date}?></field>
+            <draw name="Text29" y="50.207mm" x="5.503mm" w="44.723mm" h="5.939mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <exData contentType="text/html">
+                     <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="font-size:10.5pt;font-weight:bold;font-style:italic;letter-spacing:0in">For office use only:</p></body>
+                  </exData>
+               </value>
+               <font typeface="Myriad Pro"/>
+               <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+            </draw>
+            <field name="TextField3" y="0mm" x="6.383mm" w="187.578mm" h="25.605mm">
+               <ui>
+                  <textEdit multiLine="1">
+                     <border>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Calibri"/>
+               <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="95.3587mm">
+                  <para vAlign="middle"/>
+                  <value>
+                     <text>Optional attachment(s)- if any</text>
+                  </value>
+               </caption>
+               <bind match="dataRef" ref="$.requestBody.formData.optionalAttachment"/>
+            </field>
+            <?templateDesigner expand 1?></subform>
+         <draw name="T0" w="23.373mm" x="182.421mm" y="272.33mm" h="4.535mm">
+            <value>
+               <text>Page 2 of 2</text>
+            </value>
+            <ui>
+               <textEdit/>
+            </ui>
+            <para vAlign="middle"/>
+            <font size="11pt" typeface="Myriad Pro"/>
+            <?renderCache.bounds 66254 12855 0 0 0 0 0 0?>
+            <?renderCache.textRun 11 Page 2 of 2 0 0 9177 0 0 0 "Myriad Pro" 0 0 11000 ISO-8859-1?></draw>
+         <?templateDesigner expand 1?></subform>
+      <proto/>
+      <?templateDesigner expand 1?>
+      <?renderCache.subset "Calibri" 0 0 ISO-8859-1 4 188 47 0003000400120018001C00260027002F003E00440045004B0057005A005E00640073007A0102010F0110011A011E01280150015A015D016F01750176017D0189018B018C0190019A01B501C001C7036C0372037A037E037F038E03ED0441 ACDEFGILMNOPRSTVYabcdefghilmnopqrstuvy/-_()*1=?>
+      <?renderCache.subset "Calibri" 0 1 ISO-8859-1 4 8 2 015D0176in?>
+      <?renderCache.subset "Myriad Pro" 0 0 ISO-8859-1 4 200 50 000100070009000A000B000D000F001100120013001400150019001A001E0022002400250026002700280029002A002E002F0031003300350037003E00400042004400450046004700480049004A004D004E004F00500051005300540055005600570059 &()*,.0123489=ACDEFGHIMNPRTV]_acdefghilmnoprstuvx?>
+      <?renderCache.subset "Myriad Pro" 1 0 ISO-8859-1 4 88 22 0001000C00220024002A002F003100330034004200460047004A004E004F005000510053005400550057005A +ACINPRSaefimnoprstvy?>
+      <?renderCache.subset "Myriad Pro" 0 1 ISO-8859-1 4 88 22 0001000B002200330042004400450046004700480049004A004C004D004E004F00500053005400550056005A *ARacdefghiklmnorstuy?>
+      <?renderCache.subset "Myriad Pro" 1 1 ISO-8859-1 4 56 14 0001001B0027004400460047004A004D004F0050005300540056005A :Fcefilnorsuy?></subform>
+   <?templateDesigner DefaultLanguage JavaScript?>
+   <?acrobat JavaScript strictScoping?>
+   <?templateDesigner WidowOrphanControl 0?>
+   <?templateDesigner FormTargetVersion 33?>
+   <?templateDesigner Zoom 78?>
+   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?>
+   <?templateDesigner SaveTaggedPDF 0?>
+   <?templateDesigner SavePDFWithEmbeddedFonts 0?>
+   <?templateDesigner SavePDFWithLog 0?></template>
+<config xmlns="http://www.xfa.org/schema/xci/3.0/">
+   <agent name="designer">
+      <!--  [0..n]  -->
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+      </pdf>
+   </agent>
+   <present>
+      <!--  [0..n]  -->
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo>
+            <embed>0</embed>
+         </fontInfo>
+         <tagged>0</tagged>
+         <version>1.7</version>
+         <adobeExtensionLevel>8</adobeExtensionLevel>
+      </pdf>
+      <common>
+         <data>
+            <xsl>
+               <uri/>
+            </xsl>
+            <outputXSL>
+               <uri/>
+            </outputXSL>
+         </data>
+      </common>
+      <xdp>
+         <packets>*</packets>
+      </xdp>
+   </present>
+   <psMap>
+      <font typeface="Calibri" psName="Calibri" weight="normal" posture="normal"/>
+      <font typeface="Calibri" psName="Calibri-Bold" weight="bold" posture="normal"/>
+      <font typeface="Calibri" psName="Calibri-Italic" weight="normal" posture="italic"/>
+      <font typeface="Calibri" psName="Calibri-BoldItalic" weight="bold" posture="italic"/>
+   </psMap>
+</config>
+<xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+   <xfa:data xfa:dataNode="dataGroup"/>
+   <dd:dataDescription xmlns:dd="http://ns.adobe.com/data-description/" dd:name="root">
+      <root>
+         <operation/>
+         <integrationId/>
+         <referenceNumber/>
+         <srn/>
+         <formId/>
+         <formName/>
+         <formDescription/>
+         <formVersion/>
+         <userId/>
+         <status/>
+         <Approvedname/>
+         <formData>
+            <formIntegrationId/>
+            <continueFlag/>
+            <companyType/>
+            <LLPIN/>
+            <companyClass/>
+            <companyCategory/>
+            <companySubCategory/>
+            <NICCode1/>
+            <Description1/>
+            <NICCode2/>
+            <Description2/>
+            <NICCode3/>
+            <Description3/>
+            <proposedName1/>
+            <proposedName2/>
+            <optionalAttachment/>
+         </formData>
+         <formAttachment dd:maxOccur="-1">
+            <attachmentLabel/>
+            <attachmentCategory/>
+            <activityFileName/>
+            <activityFileSrcType/>
+            <activityFileExt/>
+            <activityFileSize/>
+            <attachmentDMSId/>
+            <totalNoOfPages/>
+            <activityFileDate/>
+            <publicDocument/>
+            <activityComments/>
+         </formAttachment>
+      </root>
+   </dd:dataDescription>
+</xfa:datasets>
+<sourceSet xmlns="http://www.xfa.org/schema/xfa-source-set/2.8/"/>
+<connectionSet xmlns="http://www.xfa.org/schema/xfa-connection-set/2.8/">
+   <xsdConnection name="DataConnection" dataDescription="root">
+      <uri>..\..\AllDocument\xsdForSpiceA.xsd</uri>
+      <rootElement>root</rootElement>
+      <?templateDesigner fileDigest shaHash="o5/2sjIH8E2rZ9U4DPvBQ6j7xRs="?></xsdConnection>
+</connectionSet>
+<localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.7/">
+   <locale name="en_IN" desc="English (India)">
+      <calendarSymbols name="gregorian">
+         <monthNames>
+            <month>January</month>
+            <month>February</month>
+            <month>March</month>
+            <month>April</month>
+            <month>May</month>
+            <month>June</month>
+            <month>July</month>
+            <month>August</month>
+            <month>September</month>
+            <month>October</month>
+            <month>November</month>
+            <month>December</month>
+         </monthNames>
+         <monthNames abbr="1">
+            <month>Jan</month>
+            <month>Feb</month>
+            <month>Mar</month>
+            <month>Apr</month>
+            <month>May</month>
+            <month>Jun</month>
+            <month>Jul</month>
+            <month>Aug</month>
+            <month>Sep</month>
+            <month>Oct</month>
+            <month>Nov</month>
+            <month>Dec</month>
+         </monthNames>
+         <dayNames>
+            <day>Sunday</day>
+            <day>Monday</day>
+            <day>Tuesday</day>
+            <day>Wednesday</day>
+            <day>Thursday</day>
+            <day>Friday</day>
+            <day>Saturday</day>
+         </dayNames>
+         <dayNames abbr="1">
+            <day>Sun</day>
+            <day>Mon</day>
+            <day>Tue</day>
+            <day>Wed</day>
+            <day>Thu</day>
+            <day>Fri</day>
+            <day>Sat</day>
+         </dayNames>
+         <meridiemNames>
+            <meridiem>AM</meridiem>
+            <meridiem>PM</meridiem>
+         </meridiemNames>
+         <eraNames>
+            <era>BC</era>
+            <era>AD</era>
+         </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+         <datePattern name="full">EEEE D MMMM YYYY</datePattern>
+         <datePattern name="long">D MMMM YYYY</datePattern>
+         <datePattern name="med">DD-MMM-YY</datePattern>
+         <datePattern name="short">DD/MM/YY</datePattern>
+      </datePatterns>
+      <timePatterns>
+         <timePattern name="full">h:MM:SS A Z</timePattern>
+         <timePattern name="long">h:MM:SS A Z</timePattern>
+         <timePattern name="med">h:MM:SS A</timePattern>
+         <timePattern name="short">h:MM A</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GyMdkHmsSEDFwWahKzZ</dateTimeSymbols>
+      <numberPatterns>
+         <numberPattern name="numeric">z,zz,zz9.zzz</numberPattern>
+         <numberPattern name="currency">$ z,zz,zz9.99</numberPattern>
+         <numberPattern name="percent">z,zz,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+         <numberSymbol name="decimal">.</numberSymbol>
+         <numberSymbol name="grouping">,</numberSymbol>
+         <numberSymbol name="percent">%</numberSymbol>
+         <numberSymbol name="minus">-</numberSymbol>
+         <numberSymbol name="zero">0</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+         <currencySymbol name="symbol">Rs.</currencySymbol>
+         <currencySymbol name="isoname">INR</currencySymbol>
+         <currencySymbol name="decimal">.</currencySymbol>
+      </currencySymbols>
+      <typefaces>
+         <typeface name="Myriad Pro"/>
+         <typeface name="Minion Pro"/>
+         <typeface name="Courier Std"/>
+         <typeface name="Adobe Pi Std"/>
+         <typeface name="Adobe Hebrew"/>
+         <typeface name="Adobe Arabic"/>
+         <typeface name="Adobe Thai"/>
+         <typeface name="Kozuka Gothic Pro-VI M"/>
+         <typeface name="Kozuka Mincho Pro-VI R"/>
+         <typeface name="Adobe Ming Std L"/>
+         <typeface name="Adobe Song Std L"/>
+         <typeface name="Adobe Myungjo Std M"/>
+         <typeface name="Adobe Devanagari"/>
+      </typefaces>
+   </locale>
+</localeSet>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.4-c005 78.150055, 2013/08/07-22:58:47        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:pdfuaid="http://www.aiim.org/pdfua/ns/id/" xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:desc="http://ns.adobe.com/xfa/promoted-desc/" rdf:about="">
+         <xmp:CreatorTool>Designer 6.5</xmp:CreatorTool>
+         <xmp:MetadataDate>2024-02-14T08:43:03Z</xmp:MetadataDate>
+         <pdfuaid:part>1</pdfuaid:part>
+         <pdf:Producer>Designer 6.5</pdf:Producer>
+         <xmpMM:DocumentID>uuid:56950dd2-56cd-4236-b59c-60791ee73bf9</xmpMM:DocumentID>
+         <dc:creator>
+            <rdf:Seq>
+               <rdf:li>Kavtiyal, Anubha</rdf:li>
+            </rdf:Seq>
+         </dc:creator>
+         <desc:version rdf:parseType="Resource">
+            <rdf:value>6.4.0.20180228.1.932123</rdf:value>
+            <desc:ref>/template/subform[1]</desc:ref>
+         </desc:version>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified" id="XFASchemaXSD">
+   <xs:element name="root">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element type="xs:string" name="operation"/>
+            <xs:element type="xs:string" name="integrationId"/>
+            <xs:element type="xs:string" name="referenceNumber"/>
+            <xs:element type="xs:string" name="srn"/>
+            <xs:element type="xs:string" name="formId"/>
+            <xs:element type="xs:string" name="formName"/>
+            <xs:element type="xs:string" name="formDescription"/>
+            <xs:element type="xs:string" name="formVersion"/>
+            <xs:element type="xs:string" name="userId"/>
+            <xs:element type="xs:string" name="status"/>
+            <xs:element type="xs:string" name="Approvedname"/>
+            <xs:element name="formData">
+               <xs:complexType>
+                  <xs:sequence>
+                     <xs:element type="xs:string" name="formIntegrationId"/>
+                     <xs:element type="xs:string" name="continueFlag"/>
+                     <xs:element type="xs:string" name="companyType"/>
+                     <xs:element type="xs:string" name="LLPIN"/>
+                     <xs:element type="xs:string" name="companyClass"/>
+                     <xs:element type="xs:string" name="companyCategory"/>
+                     <xs:element type="xs:string" name="companySubCategory"/>
+                     <xs:element type="xs:string" name="NICCode1"/>
+                     <xs:element type="xs:string" name="Description1"/>
+                     <xs:element type="xs:string" name="NICCode2"/>
+                     <xs:element type="xs:string" name="Description2"/>
+                     <xs:element type="xs:string" name="NICCode3"/>
+                     <xs:element type="xs:string" name="Description3"/>
+                     <xs:element type="xs:string" name="proposedName1"/>
+                     <xs:element type="xs:string" name="proposedName2"/>
+                     <xs:element type="xs:string" name="optionalAttachment"/>
+                  </xs:sequence>
+               </xs:complexType>
+            </xs:element>
+            <xs:element maxOccurs="unbounded" name="formAttachment">
+               <xs:complexType>
+                  <xs:sequence>
+                     <xs:element type="xs:string" name="attachmentLabel"/>
+                     <xs:element type="xs:string" name="attachmentCategory"/>
+                     <xs:element type="xs:string" name="activityFileName"/>
+                     <xs:element type="xs:string" name="activityFileSrcType"/>
+                     <xs:element type="xs:string" name="activityFileExt"/>
+                     <xs:element type="xs:string" name="activityFileSize"/>
+                     <xs:element type="xs:string" name="attachmentDMSId"/>
+                     <xs:element type="xs:string" name="totalNoOfPages"/>
+                     <xs:element type="xs:string" name="activityFileDate"/>
+                     <xs:element type="xs:string" name="publicDocument"/>
+                     <xs:element type="xs:string" name="activityComments"/>
+                  </xs:sequence>
+               </xs:complexType>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+</xs:schema></xdp:xdp>

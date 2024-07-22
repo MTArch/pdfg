@@ -1,0 +1,191 @@
+body {
+    padding: 0px;
+    margin: 0px; 
+    font-family: 'Myriad Pro';
+    font-size: 15px;
+} ol.r3c1{
+    list-style-type: upper-roman; 
+}
+
+#form1_1 {
+    z-index: 2;
+    padding: 0px;
+    position: absolute;
+    top: 44px;
+    width: 213px;
+    height: 29px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    background: transparent;
+    border: none;
+    font: normal 12px 'Myriad Pro', serif;
+}
+
+
+.mandatory_txt {
+    padding-top: 20px;
+    margin: auto 20px;
+    font-style: italic;
+}
+
+.mandatory_p {
+    line-height: 1.15;
+    font-size: 15px;
+    padding-right: 37px;
+    word-wrap: break-word;
+}
+
+
+.title_question {
+    font-size: 15px;
+    color: #000;
+    font-weight: 600;
+}
+
+.custom_textarea {
+    resize: none;
+    padding: 3px;
+    width: 220px;
+    height: 26px;
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+    text-align: left;
+    font: normal 17px 'Myriad Pro', serif;
+}
+
+.custom_textarea_multiLine {
+    resize: none;
+    padding: 3px;
+    width: 220px;
+    height: 34px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    background: transparent;
+    font: normal 17px "Myriad Pro", serif;
+    overflow: hidden;
+}
+
+
+.form1_4 {
+    z-index: 2;
+    padding: 0px;
+    position: absolute;
+    left: 91px;
+    top: 20px;
+    width: 106px;
+    height: 29px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    background: transparent;
+    border: none;
+    font: normal 12px 'Myriad Pro', serif;
+}
+
+.form2_4 {
+    z-index: 2;
+    padding: 0px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 69px;
+    height: 29px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    background: transparent;
+    border: none;
+    font: normal 12px 'Myriad Pro', serif;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.w30 {
+    width: 45px;
+    margin-right: 5px;
+}
+
+.w70 {
+    width: 170px;
+} 
+.pr-6 {
+    padding-right: 45px;
+}
+
+.f19 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.kyc {
+    font-weight: 600;
+    margin-bottom: 0px;
+    padding-top: 25px;
+    font-size: 14px
+}
+
+.f18 {
+    font-size: 17px;
+}
+
+.lh17 {
+    line-height: 17px
+}
+ 
+.form-check-input:focus {
+    box-shadow: 0 0 0 -7.75rem rgb(234 237 243 / 25%)
+}
+
+.pl-2 input {
+    margin-left: -18px !important;
+}
+
+.page_no {
+    position: relative;
+    bottom: 23px;
+    right: 18px;
+    float: right;
+}
+
+.pr-28 {
+    padding-right: 28px;
+}
+
+.smalltext {
+    font-size: 12px;
+    line-height: normal;
+    padding-left: 10px;
+}
+
+.note_txt {
+    margin-right: 10px;
+    font-weight: bold;
+    padding: 8px;
+    margin-left: 10px;
+    border-top: 2px solid;
+    border-bottom: 2px solid
+}
+
+.signature {
+    height: 50px;
+}
+
+.fs15 {
+    font-size: 15px;
+}
+
+.pl-30 {
+    padding-left: 30px;
+}
+
+.pl-20 {
+    padding-left: 20px;
+}
+
+.pl-10 {
+    padding-left: 10px;
+}
+
+.font10 {
+    font-size: 10px !important;
+}

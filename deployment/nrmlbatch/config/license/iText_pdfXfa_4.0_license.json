@@ -1,0 +1,33 @@
+{
+  "product": "pdfXfa",
+  "licensee": {
+    "company": "LTIMindtree Limited",
+    "name": "Subrata Banerjee",
+    "email": "subrata.banerjee@ltimindtree.com"
+  },
+  "key": "54ccab5c0293b4163033fd9ac7aa5b41e0ea0bb2a10f66f8a3391fa54a66b604",
+  "creationDate": "2023-09-20",
+  "expirationDate": "2026-10-19",
+  "onExpiration": "fail",
+  "platform": "java",
+  "licenseType": "production",
+  "deploymentType": "instance",
+  "productVersion": {
+    "major": 4,
+    "minor": 0
+  },
+  "limits": {
+    "default": {
+      "limitType": "unlimited",
+      "sendEvents": false
+    }
+  },
+  "eventReporting": {
+    "reportingType": [
+      "local"
+    ]
+  },
+  "licenseVersion": "1.0.0",
+  "sendStatistics": "disabled",
+  "signature": "JeAvQmmWwO1F628ToZ7jkpn8920mKHM+ZxF3htvObGZsBNu3rGDU7zLpQM+9nSGCW/c8hC9VAsf5HWr2UCvOrTEciTUzakPSUvcWuHXCqIr08l+Awf1Lx9jee3GjNYuROo0UA/Sid8pfoxj4UgkKuHvoUxjsHG2XdOKaHKdDBZMFiH2QdGxEC3voYZBazkrxz5/cBeJgSnYz7hep3aCwyU+nAGHGxTHV70RM20Dc8oRIrGHGsfdzJknszIMTTu3nsI477RoIxPGFgxzmcFSNX1DAIqvvqv6Yf61Noe+Fw+J7ls0b/7Py41x5VWRSp18WMAIDqHrkr9IUuJaviX5RZw22LhjREbZP736phzF3NqpQ4D+coN2U1nYdVWCM8jzFAe7IgLHbcZukxDPkKijXMOcMaJXAaYBnqupyXyCQFUB5wOQlgw7Zc5IRZtsvC/VR7FxYTwtQWnRSsawUMEmiJMC6qeh4gKUg5F8FnL0C1ab2r7enzHv2hRpQzG3JcZpeHsT1T1JwitWenjXxmdvP/JKZ+EiqCgRO7JZWS17664YPlPhEh98hDlxt3G4DdwNyqTkG8Q2XnWNW5c22jCz3KQTBCZPJEV0P7ubVwMZAaB23xNyUVxlqrPI49C57Ft+Luj0D3F9c/17q3Q1gxCMVZnwrS15QkWmi2aXhc3COKsw="
+}

@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.cdnfonts.com/css/calibri-light" rel="stylesheet">
+
+	<title th:inline="text">[[${data.afData.afBoundData.data.requestBody.formName}]]</title>
+	<link href="../css/mcaform.css" rel="stylesheet">
+	<th:block th:each="css : ${cssContents}">
+		<style th:utext="${css}" type="text/css"></style>
+	</th:block>
+	<th:block th:each="font : ${fonts}">
+		<style th:utext="${font}" type="text/css"></style>
+	</th:block>
+	<style>
+		.nestedTable tfoot {
+			border: none;
+		}
+
+		.nestedTable tfoot tr td {
+			border-top: 1px solid green;
+			height: 10px;
+		}
+
+		body {
+			font-family: 'Myriad Pro', sans-serif;
+		}
+
+		.kyc {
+			padding-top: 0px;
+			margin-top: 15px;
+		}
+
+		.yes_no {
+			width: 125px;
+			padding: 10px 10px;
+			display: flex;
+			margin: 0 10%;
+			justify-content: space-evenly;
+		}
+
+		.gender_yes_no {
+			padding: 10px 0px;
+			display: flex;
+			justify-content: space-evenly;
+		}
+
+		#form1_1 {
+			top: 12px;
+		}
+
+		[type="I"] {
+			list-style: paren-lower-roman;
+			padding-right: 25px;
+			line-height: normal;
+		}
+
+		.custom_textarea,
+		.custom_textarea_multiLine {
+			padding: 0px;
+		}
+
+		.d-flex-center {
+			display: flex;
+			justify-content: center;
+		}
+
+		.associate {
+			width: 177px;
+			padding: 10px 10px;
+			display: flex;
+			margin: 0 3%;
+			justify-content: space-evenly;
+		}
+
+		.language {
+			display: flex;
+			width: 143px;
+			margin: 0px 0px;
+			justify-content: space-between;
+		}
+
+		.form-check-input {
+			position: relative;
+			top: 3px;
+			accent-color: black;
+		}
+
+		/* .page2alignment tbody>tr>td {
+            padding: 8px;
+        } */
+
+		.margin-0 {
+			margin: 0px !important;
+		}
+
+
+
+		.th1 {
+			font-weight: 400;
+		}
+
+		.custom_1 {
+			resize: none;
+			padding: 3px;
+			width: 154px;
+			height: 20px;
+			color: rgb(0, 0, 0);
+			text-align: left;
+			background: transparent;
+			font-family: 'Myriad Pro', sans-serif;
+			overflow: hidden;
+		}
+
+		.custom_2 {
+			resize: none;
+			padding: 3px;
+			width: 154px;
+			height: 40px;
+			color: rgb(0, 0, 0);
+			text-align: left;
+			background: transparent;
+			font-family: 'Myriad Pro', sans-serif;
+			overflow: hidden;
+		}
+
+		.custom_3 {
+			resize: none;
+			padding: 3px;
+			width: 154px;
+			height: 34px;
+			color: rgb(0, 0, 0);
+			text-align: left;
+			background: transparent;
+			font-family: 'Myriad Pro', sans-serif;
+			overflow: hidden;
+		}
+
+		.DescriptionRow1 {
+			font-weight: bold;
+			font-style: italic;
+			height: 25px;
+			padding-left: 3px !important;
+			padding-top: 5px !important;
+		}
+
+		.DescriptionRow2 {
+			vertical-align: top;
+			padding-top: 2px;
+			padding-bottom: 12px;
+			padding-left: 6px;
+		}
+
+		input[type="checkbox"] {
+			accent-color: black;
+		}
+
+		.thead1 {
+			font-weight: bold;
+		}
+
+		.borde {
+			border-bottom: 1px solid;
+			width: 100%;
+			display: block;
+		}
+
+
+
+		/*Checkbox related css for Tick*/
+		input[type="checkbox"] {
+			-webkit-appearance: initial;
+			appearance: initial;
+			width: 14px;
+			height: 14px;
+			border: 1px solid black;
+			position: relative;
+			transform: scale(1.2);
+			accent-color: black;
+			top: 3px;
+			left: 3px;
+
+		}
+
+		input[type="checkbox"]:checked:before {
+			background-color: black;
+		}
+
+
+		input[type="checkbox"]:checked {
+			background: white;
+		}
+
+		input[type="checkbox"]:checked:after {
+			color: #000;
+			position: absolute;
+			left: 12%;
+			top: -28%;
+			content: '\2713';
+			font-weight: 1000;
+		}
+
+
+
+		ol,
+		ul {
+			margin-block-start: 0 !important;
+		}
+
+		.DescriptionRow2 p {
+			margin-block-start: 0 !important;
+			padding-left: 10px;
+		}
+
+		textarea:focus-visible {
+			outline: none;
+		}
+
+		/*Table Related CSS*/
+		.articleTable th {
+			border: 1.25px solid black;
+			text-align: left;
+
+		}
+
+		.articleTable td {
+
+			text-align: left;
+			padding: 0;
+
+		}
+
+		.articleTable th {
+			padding-left: 8px;
+		}
+
+		.articleTable,
+		.subscriberTable,
+		.signedBeforeMeTable {
+			border-collapse: collapse;
+		}
+
+		.articleTable {
+			border: 1px solid;
+			border-bottom: none;
+		}
+
+		.subscriberTable tr td,
+		.signedBeforeMeTable tr td {
+			height: 45px;
+		}
+
+		.subscriberTable th,
+		.subscriberTable td {
+			border: 1px solid black;
+			padding-left: 8px;
+			text-align: center;
+			height: 20px;
+		}
+
+		.subscriberTable th {
+			padding: 4px;
+		}
+
+		.signedBeforeMeTable th,
+		.signedBeforeMeTable td {
+			border: 1.25px solid black;
+			text-align: center;
+			padding: 10px;
+
+
+		}
+
+		.signedBeforeMeTable {
+			margin-top: 20px;
+		}
+
+		.checkboxesTable {
+			border-collapse: collapse;
+			width: 100%;
+		}
+
+		.checkboxesTable tr:first-child {
+			height: 20px;
+		}
+
+		.checkboxesTable tr td {
+			border-top: 0px;
+		}
+
+		.nestedTable tr td:last-child {
+			border-right: none;
+		}
+
+		.nestedTable td {
+			padding-top: 0px;
+			vertical-align: top;
+			border-right: 1px solid black;
+			border-bottom: 1px solid black;
+			border-left: none;
+			border-top: none;
+
+		}
+
+		.nestedTable tr:last-child {
+			border-bottom: none;
+		}
+
+		.articleTable tr {
+			border-right: none;
+		}
+
+		.signatureTd {
+			text-align: center !important;
+		}
+
+		#Signature3 {
+			margin-bottom: 12px;
+		}
+
+		.signatureBox {
+			width: 50px;
+			border: 1px solid white;
+			text-align: left;
+			height: 10px;
+			padding-top: 10px;
+			color: white;
+			/* margin-left: 24px; */
+			margin-bottom: 8px;
+		}
+
+		td[class="signatureTd"] {
+			text-align: left;
+			/* padding-left: 30px; */
+			vertical-align: bottom;
+			padding-bottom: 0px;
+		}
+
+
+
+		.thead1 {
+			border-bottom: 1px solid black;
+		}
+
+		@media print {
+
+			.articleTable tr:last-child {
+				border-bottom: none !important;
+			}
+
+			body {
+				counter-reset: counter;
+				font-family: 'Myriad Pro', sans-serif;
+			}
+
+
+
+			input[type="radio"] {
+				appearance: none;
+				background-color: white;
+				margin: 0;
+				position: relative;
+				width: 15px;
+				height: 15px;
+				border-radius: 50%;
+				top: 3px;
+				border: 1.5px solid grey;
+				transform: translateY(-0.075em);
+			}
+
+
+			input[type="radio"]:checked:before {
+				background-color: black;
+			}
+
+			input[type="radio"]:checked:after {
+				width: 6px;
+				height: 6px;
+				border-radius: 50%;
+				position: absolute;
+				background-color: #000;
+				content: '';
+				top: 3px;
+				left: 3px;
+			}
+
+			#pageborder {
+				position: fixed;
+				left: 0;
+				right: 0;
+				top: 0;
+				bottom: 0;
+				margin-bottom: 0cm;
+				border: 1px solid black;
+			}
+
+			#page_number {
+				position: fixed;
+				right: 7mm;
+				bottom: 0cm;
+				margin-bottom: 0cm;
+				color: white;
+			}
+
+			.nestedTable .ArticleNoRow {
+				vertical-align: middle !important;
+				align-items: center;
+				height: 100%;
+				position: relative;
+
+			}
+
+			.nestedTable {
+				height: 100%vh;
+				border-collapse: collapse;
+			}
+
+
+
+			.articleTable tr:last-child table.nestedTable tr:last-of-type td {
+				border-bottom: none;
+			}
+
+			.checkboxesTable {
+				border-collapse: collapse;
+			}
+
+			.nestedTable tr td:last-of-type {
+				/* display: block; */
+				width: fit-content;
+				padding-bottom: 1px;
+			}
+
+			/* .checkboxesTable tr td:last-of-type {
+				display: block !important;
+				width: 100% !important;x
+				 height: calc(100% + 1px);  
+
+			}   */
+
+			.DescriptionRow1 {
+				width: 100% !important;
+				display: table !important;
+			}
+
+			.nestedTable {
+				table-layout: fixed;
+			}
+
+			.nestedTable .center-div {
+				height: 100%;
+				width: 100%;
+				position: absolute;
+				top: 0;
+				align-items: center;
+				display: grid;
+				-webkit-print-color-adjust: exact;
+
+
+			}
+
+			.thead1 td {
+				border-bottom: 1px solid black;
+			}
+
+			.articleTable tr:nth-child(1) {
+				border-bottom: 1px solid black;
+			}
+
+			.DescriptionRow1 {
+				border-bottom: none !important;
+			}
+
+			#mainaTable thead {
+				display: table-header-group;
+				border-top: 1px solid #fff !important;
+				border-left: 1px solid #fff !important;
+				border-right: 1px solid #fff !important;
+				border-bottom: 1px solid #000;
+				max-height: 1px;
+				line-height: 1px;
+
+			}
+
+			#mainaTable tfoot {
+				display: table-footer-group;
+				border-top: 1px solid #000 !important;
+				border-bottom: 1px solid #fff !important;
+				border-left: 1px solid #fff !important;
+				border-right: 1px solid #fff !important;
+				bottom: -1px;
+				position: relative;
+				max-height: 1px;
+				line-height: 1px;
+				padding: 0px;
+			}
+
+			#mainaTable tfoot tr,
+			#mainaTable tfoot td,
+			#mainaTable thead tr,
+			#mainaTable thead td {
+				max-height: 1px;
+			}
+
+			.nestedTable tr {
+				justify-content: end;
+			}
+
+			.articleTable thead td,
+			.articleTable tfoot td {
+				visibility: visible;
+				z-index: 999;
+			}
+
+			@page {
+				margin: 0.7cm 0.7cm 0.7cm 0.7cm;
+
+			}
+
+		}
+
+
+		.main-4 {
+			display: table;
+			height: 90px;
+			width: 205px;
+			right: 2px;
+			position: relative;
+		}
+
+		.main-2 {
+			display: table;
+			height: 40px;
+			width: 205px;
+			right: 2px;
+			position: relative;
+		}
+
+		.main-1 {
+			display: table;
+			height: 30px;
+			width: 205px;
+			right: 2px;
+			position: relative;
+		}
+
+		.inner {
+			border: 1px solid #000000;
+			display: table-cell;
+			vertical-align: middle;
+			padding-left: 3px;
+		}
+
+		.page2alignment tr td:first-child {
+			width: 567px;
+			padding-right: 12px;
+		}
+
+		.ArticleNoRow {
+			padding-left: 4px !important;
+
+		}
+
+		input:focus-visible {
+			outline: none;
+		}
+	</style>
+	<th:block th:each="js : ${jsContents}">
+		<script th:utext="${js}" type="text/javascript"></script>
+	</th:block>
+	<script src="../js/masking.js" type="text/javascript"></script>
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+			maskPIIFieldValueByColumn("subscriberPanRow");
+			maskPIIFieldValueByColumn("signedBeforeMePanRow");
+
+		});
+	</script>
+</head>
+
+<body style="font-size:17px;-webkit-print-color-adjust:exact;counter-reset: headings;">
+	<div id="pageborder">
+	</div>
+	<div id="page_number" style="counter-increment: headings;color: white; content: counter(headings); ">
+		Page X of Y
+	</div>
+	<div style="display: block;overflow: hidden;background-color: white;width: 935px;
+    height: fit-content;margin: 5px auto;" id="page1" class="page_pdf">
+		<div style="margin: 0px 17px; width: 96%;height: 99%;">
+			<!--Hidden input box-->
+			<div class="d-flex-center">
+				<input id="form1_1" type="text" value="null_SRN_FORM" data-objref="873 0 R" title="R66"
+					data-field-name="form1[0].#subform[0].#subform[1].R66[0]"
+					th:value="${data.afData.afBoundData.data.requestBody.srn + '_SRN_FORM'}" style="text-align:center;">
+			</div>
+			<!--Table for Logo heading and Language option-->
+			<table style="width: 900px; margin:15px 20px 0px 20px;">
+				<tbody>
+					<tr>
+						<td width="53%">
+							<table>
+								<tr>
+									<td>
+										<div class="form_no pt-3">
+											<h5 class="f19" style="margin: 0;margin-top: 10px;" th:inline="text">Form
+												No. [[${data.afData.afBoundData.data.requestBody.formName}]]</h5>
+											<h6 class="kyc">e-AOA (e-Articles of Association)</h6>
+											<p class="lh17 mb-0" style="margin: 0;padding-top: 10px">[Pursuant to
+												Section 5 of the
+												Companies Act, 2013
+												and rules made thereunder read with Schedule I]</p>
+										</div>
+									</td>
+									<td style="display: block;margin-top: 15px; ">
+										<img th:src="${img}" style="height: 120px; width: 120px;"
+											onerror="this.onerror=null;this.src='../img/1.png;'">
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td width="20%" style="width: 280px;float: right; margin-top: 19px;">
+							<h6 class="f18" style="margin: 0; padding-top: 15px;font-weight: 400;">Form language </h6>
+							<div class="pt-1 language" style="display: flex;padding-top:12px;width: 176px;">
+								<div class="form-check form-check-inline">
+									<input class="form-check-input" type="radio" name="language" checked
+										id="inlineRadio1" value="option1">
+									<label class="form-check-label" for="inlineRadio1">English</label>
+								</div>
+								<div class="form-check form-check-inline">
+									<input class="form-check-input" type="radio" name="language" disabled
+										id="inlineRadio2" value="option2">
+									<label class="form-check-label" for="inlineRadio2">Hindi</label>
+								</div>
+							</div>
+							<div style="margin-top: 25px;">
+								<input type="text" id="pdf_ver" value = "__MCA__PDF__GEN__VER=1__" style="font-size:8pt;border:none;color: white;width:160px;" >
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table style="width: 900px; margin:-15px auto;font-style:italic;">
+				<tbody style="padding-left: 25px;display: inline-block;">
+
+					<tr>
+						<td width="100%">
+							<p>Refer instruction kit for filing the form </p>
+							<p class="pl2">All fields marked in * are mandatory </p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<hr style="width: 96%; border: 1px solid #2e2828;opacity: 50%; ;">
+			<table width="100%" class="page2alignment" style="margin-left:15px;">
+				<tbody>
+					<!--Dropdown TR-->
+					<tr>
+						<td>
+							<span>Table applicable to company as notified under schedule I of the Companies Act, 2013
+								<br><i>(F, G, H)</i></span>
+						</td>
+						<td style="padding-right: 5%; width: 200px;">
+
+							<div class="main-2">
+								<div class="inner"
+									th:text="${#strings.substring(data.afData.afBoundData.data.requestBody.formData.tableName,0,1)}">
+								</div>
+							</div>
+						</td>
+					</tr>
+
+					<!--TextArea TR-->
+					<tr>
+						<td>
+							<span>Table F / G / H (basis on the selection of above-mentioned field) as notified under
+								schedule I of
+								the companies Act, 2013 is applicable to</span>
+
+							<p class="margin-0" style="padding-left:1rem;"><i>(F – a company limited by shares</i></p>
+							<p class="margin-0" style="padding-left:1rem;"><i>G– a company limited by guarantee and
+									having a share capital </i></p>
+							<p class="margin-0" style="padding-left:1rem;"><i>H – a company limited by guarantee and not
+									having share capital)</i></p>
+
+						</td>
+						<td style="padding-right: 5%; width: 200px;">
+
+							<div class="main-4">
+								<div class="inner"
+									th:text="${data.afData.afBoundData.data.requestBody.formData.tableName}">
+								</div>
+							</div>
+						</td>
+					</tr>
+
+					<!--Name of the company-->
+					<tr>
+						<td>
+							<span>The name of the company is</span>
+						</td>
+						<td align="left" style="padding-right: 5%; width: 200px;">
+
+							<div class="main-1">
+								<div class="inner"
+									th:text="${data.afData.afBoundData.data.requestBody.formData.companyName}">
+								</div>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table width="865px" id="mainaTable" class="articleTable" style="margin-left:15px;">
+
+				<tbody>
+					<thead>
+						<tr>
+							<td colspan="4" style="padding-bottom:20px;"> &nbsp;</td>
+						</tr>
+					</thead>
+					<!--First Row-->
+					<tr class="thead1">
+						<td style="width: 15%; padding-left: 8px;border-right: 1px solid black;">Check if not applicable
+						</td>
+						<td style="width: 15.2%; padding-left: 8px;border-right: 1px solid black;">Check if altered</td>
+						<td style="width: 15.2%; padding-left: 8px;border-right: 1px solid black;">Article No.</td>
+						<td style=" padding-left: 8px;">Description</td>
+					</tr>
+
+					<div
+						th:if="${not #lists.isEmpty(data.afData.afBoundData.data.requestBody.formData.table.tableDetails.shareCapitalDetails)}">
+						<tr
+							th:each="shareCapitalDetail : ${data.afData.afBoundData.data.requestBody.formData.table.tableDetails.shareCapitalDetails}">
+							<td colspan="4">
+								<table width="100%" class="nestedTable">
+									<tr>
+										<td width="15%"></td>
+										<td width="15%"></td>
+										<td width="15.110%"></td>
+										<td class="DescriptionRow1" th:text="${shareCapitalDetail.articletype}"
+											width="55%"></td>
+
+									</tr>
+									<!--Second Row-->
+									<tr th:each="description : ${shareCapitalDetail.description}">
+										<td colspan="2">
+											<table class="checkboxesTable">
+												<tbody>
+													<tr>
+														<td width="129px"><input type="checkbox" name="checkApplicable"
+																id="checkApplicable"
+																th:checked="${#strings.equals(description.checkboxifapplicable,'Y')}">
+														</td>
+														<td><input type="checkbox" name="checkAltered" id="checkAltered"
+																th:checked="${#strings.equals(description.checkboxifaltered,'Y')}">
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+										<td class="ArticleNoRow" width="15%" style="vertical-align: middle;">
+											<div class="center-div" th:text="${description.articlenum}"> </div>
+										</td>
+										<td class="DescriptionRow2" th:utext="${description.articledescription}"
+											width="55%"></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</div>
+
+
+					<div
+						th:if="${not #lists.isEmpty(data.afData.afBoundData.data.requestBody.formData.table.tableDetails.meetings)}">
+						<tr
+							th:each="meeting : ${data.afData.afBoundData.data.requestBody.formData.table.tableDetails.meetings}">
+							<td colspan="4">
+								<table width="100%" class="nestedTable">
+									<tr>
+										<td width="15%"></td>
+										<td width="15%"></td>
+										<td width="15%"></td>
+										<td class="DescriptionRow1" th:text="${meeting.articletype}" width="55%"></td>
+
+									</tr>
+
+									<tr th:each="description : ${meeting.description}">
+										<td width="15%" style="padding-top:5px;vertical-align: top;">
+											<span class="borde">
+												<input type="checkbox" name="checkApplicable" id="checkApplicable"
+													th:checked="${description.checkboxifapplicable.equals('Y')}">
+											</span>
+										</td>
+										<td width="15%" style="padding-top:5px;vertical-align: top;">
+											<span class="borde">
+												<input type="checkbox" name="checkAltered" id="checkAltered"
+													th:checked="${description.checkboxifaltered.equals('Y')}">
+										</td>
+										</span>
+										<td class="ArticleNoRow" width="15%" style="vertical-align: middle;">
+											<div class="center-div" th:text="${description.articlenum}"> </div>
+										</td>
+										<td class="DescriptionRow2" th:utext="${description.articledescription}"
+											width="55%"></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+
+					</div>
+
+
+
+					<div
+						th:if="${not #lists.isEmpty(data.afData.afBoundData.data.requestBody.formData.table.tableDetails.managementAndBoard)}">
+						<tr
+							th:each="managementAndBoards : ${data.afData.afBoundData.data.requestBody.formData.table.tableDetails.managementAndBoard}">
+							<td colspan="4">
+								<table width="100%" class="nestedTable">
+									<tr>
+										<td width="15%"></td>
+										<td width="15%"></td>
+										<td width="15%"></td>
+										<td class="DescriptionRow1" th:text="${managementAndBoards.articletype}"
+											width="55%"></td>
+
+									</tr>
+
+									<tr th:each="description : ${managementAndBoards.description}">
+										<td width="15%" style="padding-top:5px;vertical-align: top;">
+											<span class="borde">
+												<input type="checkbox" name="checkApplicable" id="checkApplicable"
+													th:checked="${description.checkboxifapplicable.equals('Y')}">
+											</span>
+										</td>
+										<td width="15%" style="padding-top:5px;vertical-align: top;">
+											<span class="borde">
+												<input type="checkbox" name="checkAltered" id="checkAltered"
+													th:checked="${description.checkboxifaltered.equals('Y')}">
+										</td>
+										</span>
+										<td class="ArticleNoRow" width="15%" style="vertical-align: middle;">
+											<div class="center-div" th:text="${description.articlenum}"> </div>
+										</td>
+										<td class="DescriptionRow2" th:utext="${description.articledescription}"
+											width="55%"></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</div>
+				<tfoot>
+					<tr>
+						<td colspan="4" style="padding-bottom:20px;"> &nbsp; </td>
+					</tr>
+				</tfoot>
+
+				</tbody>
+			</table>
+
+
+			<!--Subscriber Details-->
+			<b style="display: block;padding: 15px;">Subscriber Details</b>
+
+			<table width="865px" class="subscriberTable" style="margin-left:15px;text-align:center;">
+				<tbody>
+					<tr>
+						<td><b>S. No.</b></td>
+						<td colspan="5"><b>Subscriber Details</b></td>
+					</tr>
+					<!--First Row-->
+					<tr>
+						<td width="5%"></td>
+						<td width="26%"><b>*Name, Address, Description and Occupation<b></td>
+						<td width="19%"><b>DIN / PAN / Passport number<b></td>
+						<td width="15%"><b>*Place</b></td>
+						<td width="20%"><b>DSC</b></td>
+						<td width="15%"><b>Dated<b></td>
+					</tr>
+					<!--Second Row-->
+					<tr
+						th:each="subscriberDetail : ${data.afData.afBoundData.data.requestBody.formData.subscriberDetails}">
+						<td th:text="${subscriberDetail.subSerialNo}"></td>
+						<td th:text="${subscriberDetail.subscriberName}"></td>
+						<td th:text="${subscriberDetail.subPassportdinpan}" class="subscriberPanRow"></td>
+						<td th:text="${subscriberDetail.subSignedPlace}"></td>
+						<td class="signatureTd">
+							<input class="signatureBox" id="subscriberSignature" type="text"
+								th:value="${subscriberDetail.dscCount}" />
+						</td>
+						<td th:text="${#dates.format(#dates.createNow(), 'dd/MM/yyyy')}"></td>
+					</tr>
+
+				</tbody>
+				<tfoot>
+					<tr>
+						<td colspan="6" style="padding-bottom:20px;border:none;"> &nbsp; </td>
+					</tr>
+				</tfoot>
+			</table>
+
+
+		</div>
+
+
+	</div>
+
+	<div style="display: block;overflow: hidden;background-color: white;width: 935px;
+    height:fit-content;margin: 5px auto;" id="page1" class="page_pdf">
+		<div style="margin: 28px 17px; width: 96%;height: 95%;">
+			<!--Table for Signed before me-->
+			<table width="865px" class="signedBeforeMeTable" style="margin-left:15px;text-align:center;">
+				<tbody>
+					<tr>
+						<td colspan="7"> <b> Signed before me </b></td>
+					</tr>
+					<tr>
+						<td width="14%">
+							<b> Name Prefix </b>
+							<span class="th1"> <i> (ACA/FCA/ACS/
+									FCS/ACMA/
+									FCMA) <i> </span>
+						</td>
+						<td width="14%">
+							<b> *Name of the witness </b>
+						</td>
+						<td width="17%">
+							<b> *Address, Description and Occupation </b>
+						</td>
+						<td width="14%">
+							<b> *DIN / PAN / Passport number / Membership </b>
+						</td>
+						<td width="13%"> <b> *Place </b> </td>
+						<td width="14%"> <b> DSC </b> </td>
+						<td width="14%"> <b> Dated </b> </td>
+					</tr>
+					<tr th:each="witnessDetail : ${data.afData.afBoundData.data.requestBody.formData.witnessDetails}">
+						<td th:text="${witnessDetail.witnessSerialNo}"></td>
+						<td th:text="${witnessDetail.witnessName}"></td>
+						<td th:text="${witnessDetail.witnessAddrDescOccpn}"></td>
+						<td th:text="${witnessDetail.witnessPassportDinPan}" class="signedBeforeMePanRow"></td>
+						<td th:text="${witnessDetail.witnessPlace}"></td>
+						<td class="signatureTd"><input class="signatureBox" th:value="${witnessDetail.dscCount1}"
+								id="Signature3" type="text" value="" style="color:white;"></td>
+						<td th:text="${#dates.format(#dates.createNow(), 'dd/MM/yyyy')}"></td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td colspan="7" style="padding-bottom:20px;border:none;"> &nbsp; </td>
+					</tr>
+				</tfoot>
+
+			</table>
+
+
+
+
+		</div>
+
+
+	</div>
+</body>
+
+</html>

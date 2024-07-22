@@ -1,0 +1,237 @@
+[
+  {
+    "product": "itext-core",
+    "licensee": {
+      "company": "LTIMindtree",
+      "name": "Sivakumar Kalyanaraman",
+      "email": "Sivakumar.Kalyanaraman@ltimindtree.com"
+    },
+    "key": "81c35cda4be45b4f8eb0a35121d889174458a1ecc92465ce59f3a10185a5901f",
+    "creationDate": "2023-09-01",
+    "expirationDate": "2023-10-02",
+    "onExpiration": "fail",
+    "platform": "any",
+    "licenseType": "trial",
+    "productVersion": {
+      "major": 8,
+      "minor": 0
+    },
+    "limits": {
+      "default": {
+        "limitType": "unlimited",
+        "sendEvents": false
+      }
+    },
+    "licenseVersion": "1.0.0",
+    "sendStatistics": "disabled",
+    "signature": "ZKoGUph4eAhaScTQ+xoI6aX7bzQpA8VkJ0WsffkONiB9ybH9XR0r5C6xhwOr3z/LafMb2dZCI6Z3g9vAfoGPifdPwRGPctiVvwdabUgtk9pt/ejUkONvMkQBX7rSdDJW1DDptB3OvjZTcJY6uyGUaty8EbBbfJ/rDaWye3LRUneRpfy06HxgzHThNQpSUdI/lZec2c67KMtM+LP2AsY0kQT7D972m2OPfYw5s4XtW4sX6xYzu04yu/QK9orIWKXZT1S/AlZUqzcD1AScC1f2MJa6nzBqjkuHTypyFs6tTWIMrLkdX0zR2TTPmkrCyZxXul0Jq2xiZntCfFSJ/tETdG7w3+6Qwz4qIHOdNfdfQNTz8V7B5hYDaB1cGaKllqm7SCaqQMA/e4rRcRoQVzSSHHSBE7NB/s0hA0Q46KcsWio5f7Y2+WoLQhdU2PrBzXIQ2RqlylBjeouhBU7guaXTBatahFn0WJd2lFO3vErTDoyv6SvH9W9ml/fKqqcF8aE+2dHJIuVxV954WV/ezOrXZ4tvS0TOFymjFDyjB9l2N5hUE/n8VevwAAAtcLfAGMfs6Jc7qRghPj/zAuvksn/X4gfQmL2ztPs6/jmdmZhSiJ1zOn7mLwNvGaq4trxS7auVukDneD7cV7vQbtMZsbLY8d8ZY6SGRx2VB+gLNWJKli0="
+  },
+  {
+    "product": "pdfXfa",
+    "licensee": {
+      "company": "LTIMindtree",
+      "name": "Sivakumar Kalyanaraman",
+      "email": "Sivakumar.Kalyanaraman@ltimindtree.com"
+    },
+    "key": "81c35cda4be45b4f8eb0a35121d889174458a1ecc92465ce59f3a10185a5901f",
+    "creationDate": "2023-09-01",
+    "expirationDate": "2023-10-02",
+    "onExpiration": "fail",
+    "platform": "any",
+    "licenseType": "trial",
+    "productVersion": {
+      "major": 4
+    },
+    "limits": {
+      "default": {
+        "limitType": "unlimited",
+        "sendEvents": false
+      }
+    },
+    "licenseVersion": "1.0.0",
+    "sendStatistics": "disabled",
+    "signature": "YDAUARFRgCLLrBMR+ZlMd/2rq39fmfoEMisewMbizGdG4LST/fJ1AfBoqJaBwe3WGEQSI0k/vASnUSIqppvqZm6DLlovjTVMOGqJ0WgZ735keEjBw9hbIHwTBtLvHdYPggI41/weH7RHkerAjrmS56WeEneTSJTba3IeW1lk2fuAruC5/H037KdsIgREjlzfB9SMhdFAPtp0yBQysgXsNg9eFQX/F35BS/BkpG6OHU16W20N9PyAU8yI+xR+qoDK4kyI04OPkLSCC7Kj6HcmcZ8AE1nG/B0PpwGPAofXtBUfuKpl5pcksBvzDXPDbHxJrDOGAKuPVlOhCOXo29owgOEmDL6ToewNL4NHwXJ8DOnHGCkY7SHtttMe63BQvERZ1hZYMdFC5qAEeNyjlXux7HNWogodSpjOblujcymOv0kHmajs33Z7b89GUidZX8aAXnJEHJK8zR3VYQOYRlugqm7PcD62RYfIH37gNNFU8P0HUBKLD/J4I7t1HLTi9+sFGxQWxvOaKa3SDIStJd4FsN3FdF2qdcig6c4c5LYlVyDB9G/xYByx4KqIslE5BUf4niKhUzvyw3VnrYgKJxL5LaJde7JE8UTAdLVJGgkxB9MLy8un0MVHNAp+nDoZcppuvSCh4Xg0wJWaayIHGy2eCIui34rh50Cvc8HOzzSI/s8="
+  },
+  {
+    "product": "pdfSweep",
+    "licensee": {
+      "company": "LTIMindtree",
+      "name": "Sivakumar Kalyanaraman",
+      "email": "Sivakumar.Kalyanaraman@ltimindtree.com"
+    },
+    "key": "81c35cda4be45b4f8eb0a35121d889174458a1ecc92465ce59f3a10185a5901f",
+    "creationDate": "2023-09-01",
+    "expirationDate": "2023-10-02",
+    "onExpiration": "fail",
+    "platform": "any",
+    "licenseType": "trial",
+    "productVersion": {
+      "major": 4
+    },
+    "limits": {
+      "default": {
+        "limitType": "unlimited",
+        "sendEvents": false
+      }
+    },
+    "licenseVersion": "1.0.0",
+    "sendStatistics": "disabled",
+    "signature": "VTapjhP3XunKLCDzRIYCsWkxoTGGG1Z5L8kb9uu09pOvyQ13Dcar3MGMpqwjuoCRujFmSvyl+wc3O3mZA6wDR3p04uBX9X4temESxQJE9NukfmE3ZXlZLL/T6D6gjjeyw06TcRUGTWa9AeYKdg+UltYRIZFfEOUiRGMgQUCTExFQwgYZOZ6e+Q0V2we15CLfunJ0v91mtBe9AH2dDl7t/BqoD7SJ7oiQmZyodJkIvG6l6VTEf9084pMRq1WRJawfJDQhkmj07EROb7U8U2JHxrn/C2vWcrYX77DW9kBAaBnCRimfepWmzF6SLktJBqsIfiQgA7ZgXHI192300aE0H/Zo9L+lSoMMeSZRGaWXA5YX20TR2G01WLKrgJqjkrcv7GeYEKErOFJBPjCOlPTYVBPX28C5pgtCwjFvNpWRyw7PDtFKqQZnq8yunYXLaFgRImjiExRqEO6UxGDfJJKQbgAvi+bDKo3ZBfHkZvNxheiO+UFiXmtHY7rzX0FXxTvB1AMF90HOae/maGgN9jF13JwZulzbHh802IXDE5/qBaaANWIWTEp75TvG2FonEaNsOUI98r+bNH0kpkjtM1jkDFF1b+Qrmz0nPSfABzw14DgG/U6CzWGbHXDdRscXiBhHbyZqw7Xr6ZoiphwPrb9HOrCfjfJaZYWLqVjEA+qMsY8="
+  },
+  {
+    "product": "pdfRender",
+    "licensee": {
+      "company": "LTIMindtree",
+      "name": "Sivakumar Kalyanaraman",
+      "email": "Sivakumar.Kalyanaraman@ltimindtree.com"
+    },
+    "key": "81c35cda4be45b4f8eb0a35121d889174458a1ecc92465ce59f3a10185a5901f",
+    "creationDate": "2023-09-01",
+    "expirationDate": "2023-10-02",
+    "onExpiration": "fail",
+    "platform": "any",
+    "licenseType": "trial",
+    "productVersion": {
+      "major": 2
+    },
+    "limits": {
+      "default": {
+        "limitType": "unlimited",
+        "sendEvents": false
+      }
+    },
+    "licenseVersion": "1.0.0",
+    "sendStatistics": "disabled",
+    "signature": "IFA3NxlSWcx0zEK7rfCZ/xN1qbOKnjK0LM0Pmvh3vIsPM4pVpwS7ahJrU35zlFEgOIUcE6npKDCMeJGlovghWGy1XWGkeRg1bMGQvXG74LfbiNprHyk/cdZ2L2YIw1X0MVCsku24N/2qi6MfkisEdFqR7i1M8i6qd+tGZOMj+2UCWvy7SnRjIpk5Y8cGNKYzwvgUAovjSJO4YzqQuaeXaPW2COlKkWOCj5u6pbKE8pWfdIgLjzFLVgmNjt+drNmqgoIIO+3zx/U55vrHspWfskI6nPcwShCHA38YqBOlr6ni4T0X2CPVHcwQusvXPJXimsgKmiHRIqgRLoH45YTWv5n6Z55wgw4t6OQvlgNrl7EZh4fsBKDxbTz2fwrrKD9X6MeFaLuREm03u9jI6DIsgRqcnrmdSclW1XtMs+ktpvDrgyryrbSCVRJORTG1OA21jeWO6xelw9HY9nrm/PD2S+E/AzUmDqIrGIDsot+ng/XRf20J2mOSzUG5dLACiAsUVWA2XogUiS/fVJLo9AYtWF4jLuXzYak1yjMk6Eqbxo46YD5jxuhzG9HAaipHW270mIfRq8bOF735HZDyXy+d9MLHsQRDn5LV2t33riebPrp5cvWpJSoFsmWp9FMfXHETBMgd3MboO8s04K/UlCOKfRQENCv2SvY7wasfg/8b7PQ="
+  },
+  {
+    "product": "pdfOcr-tesseract4",
+    "licensee": {
+      "company": "LTIMindtree",
+      "name": "Sivakumar Kalyanaraman",
+      "email": "Sivakumar.Kalyanaraman@ltimindtree.com"
+    },
+    "key": "81c35cda4be45b4f8eb0a35121d889174458a1ecc92465ce59f3a10185a5901f",
+    "creationDate": "2023-09-01",
+    "expirationDate": "2023-10-02",
+    "onExpiration": "fail",
+    "platform": "any",
+    "licenseType": "trial",
+    "productVersion": {
+      "major": 3
+    },
+    "limits": {
+      "default": {
+        "limitType": "unlimited",
+        "sendEvents": false
+      }
+    },
+    "licenseVersion": "1.0.0",
+    "sendStatistics": "disabled",
+    "signature": "CSHzpaJQWwZAR2mE+MIq4XNNz1GAIxf9HBGlzAmi9i5lhBr70cUHHwCBDVz/slnDlzS7s/oSVhD9xSkhsvK0PLfc/+clv5XTvDG/MyvapI1ss1UfIMKjRRqB+4etH3qX4FOz5h4HxeG2wJOtrc8TTPC+a87lday7MN340FH3FiNJ3yXba6m1GkA9HVXRPS0qwRostzHk5VeYeceNYlJ13JUmYf1bKDfjeDQmNd6GN3PZ534UVBDNiOJGxAwpi0JvoMywfqcim9cdjaVzl5xLjRhubkZseEG23cjox0lnuCj3mWTLZ0XkRFFhM+gqu9OWL4Rvw4aUcAT56KTv1Si+V+gGs9rmx2dqxyyXoPrpRYKEYaIkAmbg/1mt6MO/kn+WsxqIxiMGdN2ezGkglrQsPp1DpnvBxZ82I6SSYgyWUdq475KJ/q8THkFO75bahMgAtelVQvlWUcR6d5kv5QRJUAEV1LT8usYYwy6cH11aSER/Hzv+6KgyQLZ3p+4XPRdapItV2VygjUolMocsiZeDn7UAEhBZRXNBz0EuKeQRZNdHZLh32hW79/XJKpaQ98rRHNC+sQLJ+n7LD7nMvTLSMCCs5/I0po3eEGyjHmszahKgPLOvbayHzkFUtA4NMq2ZeB5oxfd59wjLjhehPZ8lE3q6huwKkCyPiFsKlxii+KU="
+  },
+  {
+    "product": "pdfOptimizer",
+    "licensee": {
+      "company": "LTIMindtree",
+      "name": "Sivakumar Kalyanaraman",
+      "email": "Sivakumar.Kalyanaraman@ltimindtree.com"
+    },
+    "key": "81c35cda4be45b4f8eb0a35121d889174458a1ecc92465ce59f3a10185a5901f",
+    "creationDate": "2023-09-01",
+    "expirationDate": "2023-10-02",
+    "onExpiration": "fail",
+    "platform": "any",
+    "licenseType": "trial",
+    "productVersion": {
+      "major": 3
+    },
+    "limits": {
+      "default": {
+        "limitType": "unlimited",
+        "sendEvents": false
+      }
+    },
+    "licenseVersion": "1.0.0",
+    "sendStatistics": "disabled",
+    "signature": "YaseFXcgkZy1yuoRIVr4Dj5nm5xxf98fzyw2+3O7GMawGuSCWvcwo7h7ExiJuOlv6maDUxfUe226wbxAwRtRuU2VOnSnirHIx3+PiHFqIhXSsqXkQCAIYgqzyF+uG8jTA+fRSwbmgbsqdyN8Hsy9vR/YLsXe6h0gwgoPytqHMGqx6oO6WVT6ogKn5fxQRitF+VOv4v4LPFfQeWt9dj/5CUy9UMtekI+06m8/isSCkQfv6+hJ2fscCFEYadSmFUyMl5mvnFaQ7TvjoRQAD6FLo7A67X0NNmubJD16nyajZat54YdZOs7hBYQwTOOeHL3eai0J+5Ra7wJWsLSpNgO1SFk6zWnlyn7zW2LZeBj20iCtg/RnGV6NEMllMWhWyh+QPQyfT86NAKLkw+4bu0N7yPkUL3/5VOUUd2CZoUihUtqHPYHT7nZJrZ73s4Bw9f4IZ6AKedLXdReHbSeZ/vMF1eNw0PZFUOtXi4NWlHNjjSPIZhErvkUS6cjM+2enFW/AznH2Sjyy4otVgHhSZy/zIXXwVDClN3X9FaZlCIlO3zaJ3b8NpjGOqhlFyFtK4sXX6WfpHbGU0MkCWtorFiWSn3BrvG9wOfBMOdOeb23h1T7/WsPuXaTTUf8utH17NbK/eku0/v41B8uTDI/9UF2cX/9Q25E4r8Mdfp6G6aFWtxU="
+  },
+  {
+    "product": "pdfHtml",
+    "licensee": {
+      "company": "LTIMindtree",
+      "name": "Sivakumar Kalyanaraman",
+      "email": "Sivakumar.Kalyanaraman@ltimindtree.com"
+    },
+    "key": "81c35cda4be45b4f8eb0a35121d889174458a1ecc92465ce59f3a10185a5901f",
+    "creationDate": "2023-09-01",
+    "expirationDate": "2023-10-02",
+    "onExpiration": "fail",
+    "platform": "any",
+    "licenseType": "trial",
+    "productVersion": {
+      "major": 5
+    },
+    "limits": {
+      "default": {
+        "limitType": "unlimited",
+        "sendEvents": false
+      }
+    },
+    "licenseVersion": "1.0.0",
+    "sendStatistics": "disabled",
+    "signature": "GSUOXouuxE2XMShdeg6Cx3uMaABujBboPA8WDW8pwY9bqLhAX/RiYdT9cuSkx9gGBnZrXRT8oB90qlgB4jjU6qabogOt7BaR64zJtViauObCzi7Oo+U6fHJJrYrnWLrGL6DgNdRNzkMn/HEuUdAyIjUaoR1EihLLO2Y4MSAMB8b6vzWRzOpWkFLmfkZJB0hvKVd6gwumauEg1MtninjjQGGrW46y9oGJIoBJGPsh9Th22X1n1TOAEmgWv8fvZKxKKZ3s0TOa6BKHxMz6FqqtxJ0JIkEa3EmKnSpsyHauo5h/zETCHIJtMXpR5UuPg0XD6h8Jb4IjYvgNHf3TAQfkw0k7hMntUR7VnR/6vfQJ2bPSoRGMlzVQGdL+lZp0eNkWFwgV+v+bif0UUJB7sRF6TOVAfYK6BTH2Ol8aF8RoF7/g1ejibOImxxAZz4Sxg0IUxDXuCkaItA37KN1SCjk6C6CjqdqLtGK2PbfVcx5wsyiaHTEVxGT/UARQ54Xk08pSr/tST/anvEwk8KCdQSK/15vW710MG8Fp7u7TKs+Coc/RrsJYGAXlrTmUPovSGAjrmAcXh6IW2blbGb9rBvh2p7j9rQKiTUkKOrMxKYZ+PerDJsBy610YXabuOKcm6p+V6DNG/WilWq6Rn+jgpJnfj8RKnRckpVDqPueNngKyU+c="
+  },
+  {
+    "product": "pdfCalligraph",
+    "licensee": {
+      "company": "LTIMindtree",
+      "name": "Sivakumar Kalyanaraman",
+      "email": "Sivakumar.Kalyanaraman@ltimindtree.com"
+    },
+    "key": "81c35cda4be45b4f8eb0a35121d889174458a1ecc92465ce59f3a10185a5901f",
+    "creationDate": "2023-09-01",
+    "expirationDate": "2023-10-02",
+    "onExpiration": "fail",
+    "platform": "any",
+    "licenseType": "trial",
+    "productVersion": {
+      "major": 4
+    },
+    "limits": {
+      "default": {
+        "limitType": "unlimited",
+        "sendEvents": false
+      }
+    },
+    "licenseVersion": "1.0.0",
+    "sendStatistics": "disabled",
+    "signature": "jglA6Xtv7sjNpI8pJowqPNP2NCQwz4lQ+ZKS3YKuV84Ndmyks1SkjOY1+wLUJIlP1AbaGUNnRjdKOB6teABpSpBiV2PpivqoxMHr5y8W9pEbuQmRkGywiBM0J+C4dVJmLIdVPBS2aDVnGS88wtq9GpET2dsxCqpTqGNtfrVxsYuz0b9hTHfOunk0bJI4uzRyJuL8rXarKzezbxmAYS5gr647G/MytlVH9gQx9xsDaDkfEiopYskfC3Xcdu5FBXsA1f49Jd252I+VNbwAJtlaZsktoRuPiAkgEusMRhen89i6l4nzFvpFh2LJIUhbuQ6IUzGLPBCTSDmSOVZYxWmy5WDqkaq6FNFeO7o6Kyus6+PQifK2s1dN2sWm3WRIjytr4rmVcGggvB9rheQp5m05YAp6GYFHsGzul7qLfAuA7a3x2SNqoOmstZbYQYy8j7Ff0SyuEJgJpkFDGsDRt2e9LNWcLGXJ5e5MmdZJJXH7TDQinJh8TSX6SWjX1NcMtWmZsJHBm6lUiPClRjfsvCKxSG1EUVpiCv0QH/yotAHIB9zuLDS93fBieaRU+a0/VDOyzMvGU709UZ99+O2gTtD46kqjtzWLbf/JUgqKtuSV8Z7Scshu7Ooy2B7N5T0xOpmRksU6HkTMOorsUvkKXsQ5BtKWSkIuWvcu8f4T3wGpsDc="
+  },
+  {
+    "product": "pdfOffice",
+    "licensee": {
+      "company": "LTIMindtree",
+      "name": "Sivakumar Kalyanaraman",
+      "email": "Sivakumar.Kalyanaraman@ltimindtree.com"
+    },
+    "key": "81c35cda4be45b4f8eb0a35121d889174458a1ecc92465ce59f3a10185a5901f",
+    "creationDate": "2023-09-01",
+    "expirationDate": "2023-10-02",
+    "onExpiration": "fail",
+    "platform": "any",
+    "licenseType": "trial",
+    "productVersion": {
+      "major": 2
+    },
+    "limits": {
+      "default": {
+        "limitType": "unlimited",
+        "sendEvents": false
+      }
+    },
+    "licenseVersion": "1.0.0",
+    "sendStatistics": "disabled",
+    "signature": "YXQMmNLfmiZeLUGi1xS6a5JLb7f36VTfBeslKfbI9Z+JnrtCKCB4VmB1h/y+0q7l3oQdmUNtA5KE66P59utp/OxoRrw8NNpeftfykDRb2lN0DV31D51UnCxq7Wm2cq4srNZXLLAxyl8R3VEgN9a+e4BiSF5LFKWEP5nUTDCjCCix7m2w1MxDk2VsEXAdlA3Tq4nQKlAYCrn0iDMMGU5lNGncHH55z+bM8f7AEW+JMk0sc0IqQOhiMhpQV5fF15arTI/Duyprd5ViDbn4e5aoEvum/SnAcagU1ZiuVf92ietJIvn1Nx5vkkMFQHLkm3YyL0q7T4//Og8fnv7Nrz1/pxKiJet3iqcpFCQeE/3IU3hrVXdABeBxw4Mgnz7INJFIS7xEmj+29JousRqBR52+FmVMyh2xdP85rmEe/x+IN6vuuWDyyoYzLgbGEDKGEWw2GwyRWkvY29iu58kmuKtm6KTPhtMP2mohJxdRS3LbFZqEqCCtVvoYa21UObrzZYqLSdkw7Pbuxn4ok+INpLEoSB9RaLfwXw3SCRvecJyv4miIxPxl73mhVlrvhBrBtStgiICVn6kYVA7JWqgvtpwQM8WV2N9oprbP7P0iugm/5crkC88av5rqX6Ca3CeChQ5+gAa1UrlbpOf+M9Ldtqd1FNkMlVztmapPLM2ALMIIzeM="
+  }
+]
